@@ -6,7 +6,7 @@ import Worker, { WorkResult } from './Worker';
 
 import * as builtInConcurrency from './concurrency/builtInConcurrency';
 
-import type { Page, PuppeteerNodeLaunchOptions } from 'puppeteer';
+import type { Page, PuppeteerNodeLaunchOptions } from 'puppeteer-core';
 import Queue from './Queue';
 import SystemMonitor from './SystemMonitor';
 import { EventEmitter } from 'events';

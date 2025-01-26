@@ -1,5 +1,5 @@
 
-import * as puppeteer from 'puppeteer';
+import * as puppeteer from 'puppeteer-core';
 
 import { debugGenerator, timeoutExecute } from '../../util';
 import ConcurrencyImplementation, { WorkerInstance } from '../ConcurrencyImplementation';
